@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Sensitive Data, Ledgers & Input Files
+data/
+proofs/
+avatarity_profiles/
+avatarity_bundle/
+static_cache/
+*.csv
+*proxies*.txt
+*metadata*.json
+*ledger*.json
+*results*.json
+flow-session-state.json
+activated_status.json
+fingerprint*.json
+
+# Screenshots & Archives
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tar.gz
+*.tgz
+*.zip
+
+# Python & IDE
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

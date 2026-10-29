@@ -1,0 +1,5 @@
+patchright>=1.49.0
+playwright>=1.49.0
+pyotp>=2.9.0
+aiohttp>=3.10.0
+python-dotenv>=1.0.1
